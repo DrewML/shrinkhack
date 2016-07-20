@@ -1,0 +1,27 @@
+{
+  "name": "shrinkhack",
+  "version": "1.0.0",
+  "description": "Works around prune bugs in npm 3.10.x to allow you to shrinkwrap your dependency tree",
+  "repository": "https://github.com/DrewML/shrinkhack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "shrinkhack": "cli.js"
+  },
+  "keywords": [
+    "prune",
+    "extraneous",
+    "shrinkwrap",
+    "npm",
+    "bug",
+    "bugs"
+  ],
+  "author": "Andrew Levine",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "rimraf": "^2.5.3"
+  }
+}
